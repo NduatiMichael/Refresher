@@ -1,3 +1,20 @@
-.header{
-    background:blue;
+.loginpage{
+background-image: url(assets/login.jpg);
+background-position: center;
+background-size:cover;
+}
+.login_form{
+    padding: 20%;
+    border-color: rgb(3, 73, 73);
+}
+.login_form{
+    padding-left:10%;
+}
+.dashboardpage{
+    background-image: url(assets/dashboard.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.token_add{
+    padding: 60px 0px 0px 50px;
 }
