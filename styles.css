@@ -5,10 +5,8 @@ background-size:cover;
 }
 .login_form{
     padding: 20%;
-    border-color: rgb(3, 73, 73);
-}
-.login_form{
     padding-left:10%;
+    color :rgb(255, 255, 255);
 }
 .dashboardpage{
     background-image: url(assets/dashboard.jpg);
