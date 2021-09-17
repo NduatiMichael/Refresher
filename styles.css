@@ -9,6 +9,31 @@ background-size:cover;
     color :rgb(255, 255, 255);
     text-align:left;
 }
+.menu{
+    list-style:none;
+    margin: 0;
+    padding:0;
+    background-color:#f1f1f1;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    
+}
+.menuli{
+    display:block; 
+    color:#000;
+    padding: 8px 16px;  
+    text-decoration:none;
+}
+.menuli:hover{
+    background-color:#555; 
+    color:white;
+}
+.menuli.active{
+    background-color: #04AA6D;
+    color: white;
+}
 .dashboardpage{
     background-image: url(assets/dashboard.jpg);
     background-size:cover;
@@ -18,5 +43,6 @@ background-size:cover;
   color:white;
 }
 .token_add{
+    margin: 15%;
     padding: 60px 0px 0px 50px;
 }
