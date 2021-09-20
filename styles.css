@@ -54,7 +54,7 @@ background-size:cover;
     text-decoration:none;
 }
 .menuli:hover{
-    background-color:#555; 
+    background-color:#04AA6D; 
     color:white;
 }
 .menuli.active{
