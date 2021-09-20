@@ -9,11 +9,38 @@ background-size:cover;
     color :rgb(255, 255, 255);
     text-align:left;
 }
+.taskbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.taskbarli{
+    float: right;
+    border-right:1px solid #bbb;
+}
+.taskbarli:last-child{
+    border-left: none;
+}
+.taskbarli a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.taskbarli a:hover:not(active){
+    background-color: #04AA6D;
+}
+.active{
+    background-color: #04AA6D;
+}
 .menu{
-    list-style:none;
+    list-style-type: none;
     margin: 0;
     padding:0;
-    background-color:#f1f1f1;
+    background-color:#F1F1F1;
     width: 15%;
     position: fixed;
     height: 100%;
@@ -31,7 +58,7 @@ background-size:cover;
     color:white;
 }
 .menuli.active{
-    background-color: #04AA6D;
+    background-color: #E7FFAC;
     color: white;
 }
 .dashboardpage{
@@ -43,6 +70,6 @@ background-size:cover;
   color:white;
 }
 .token_add{
-    margin: 15%;
-    padding: 60px 0px 0px 50px;
+    margin: 60px 0px 0px 180px;
+    padding: 0px 0px 0px 50px;
 }
