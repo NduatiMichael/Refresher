@@ -2,7 +2,7 @@
 <html >
     <head>
         <link rel="stylesheet" href="styles.css">
-
+        <link rel="stylesheet" href="table.css">
     </head>
     <body class="dashboardpage">
         <div>
@@ -18,27 +18,37 @@
                <li class="menuli"><a href="profile.html">Profile</a></li>
            </ul>
            </div>
-        <form class="token_add">
-            <input type="text" placeholder="Reward Category"><br>
-            <input type="text" placeholder="Airdrop Type"><br>            
-            <input type="text" placeholder="Airdrop Name"><br>
-            <input type="text" placeholder="Coin Name"><br>
-            <input type="text" placeholder="Amount in tokens"><br>
-            <input type="text" placeholder="Amount in USD"><br>
-            <input type="text" placeholder="Conditions"><br>
-            <input type="text" placeholder="URL"><br>
-            <input type="text" placeholder="Login"><br>
-            <input type="Password" placeholder="Password"><br>    
-            <input type="Password" placeholder="Wallet"><br>         
-            <input type="text" placeholder="2FA Mode"><br>
-            <input type="text" placeholder="Next Activity"><br>
-            <input type="text" placeholder="Next Activity Date"><br>
-            <input type="text" placeholder="Due Date"><br>
-            <input type="Condition" placeholder="Remarks"><br>
-            <input type="radio" id="active"name="active/deactive"><label class="dashboard_radio">Active</label><br>
-            <input type="radio" id="deactive"name="active/deactive"><label class="dashboard_radio">Deactive</label><br>            
-            <button type="submit"> Add </button>
-        </form>
+           <div class="container">
+            <h2>Crypto Portfolio</h2>
+            <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>            
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>John</td>
+                  <td>Doe</td>
+                  <td>john@example.com</td>
+                </tr>
+                <tr>
+                  <td>Mary</td>
+                  <td>Moe</td>
+                  <td>mary@example.com</td>
+                </tr>
+                <tr>
+                  <td>July</td>
+                  <td>Dooley</td>
+                  <td>july@example.com</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
 
     </body>
 </html>
