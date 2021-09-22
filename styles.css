@@ -73,3 +73,7 @@ background-size:cover;
     margin: 60px 0px 0px 180px;
     padding: 0px 0px 0px 50px;
 }
+.dashboard_header{
+    color: azure;
+    margin-left:220px;
+}
